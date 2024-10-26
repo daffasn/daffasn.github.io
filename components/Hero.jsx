@@ -25,16 +25,16 @@ const Hero = () => {
         
         <h1 className="text-white relative z-20">
           <TextGenerateEffect 
-            className='md:text-4xl text-xl'
+            className='md:text-4xl text-xl mb-5'
             words='Hello There 👋'
           />
         </h1>
 
-        <div className="text-[18px] md:text-3xl flex z-20">
+        <div className="flex items-center text-[18px] md:text-3xl z-20">
           <TextGenerateEffect
             words='I am'
           />
-          <FlipWords words={words} className='pt-[16px] md:pt-[18.5px]' />
+          <FlipWords words={words} className="mt-[1px] sm:mt-[1.5px]" />
         </div>
 
         <a href="#projects">
