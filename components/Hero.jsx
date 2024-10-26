@@ -30,11 +30,11 @@ const Hero = () => {
           />
         </h1>
 
-        <div className="flex items-center text-[18px] md:text-3xl z-20">
-          <TextGenerateEffect
-            words='I am'
-          />
-          <FlipWords words={words} className="mt-[1px] sm:mt-[1.5px]" />
+        
+
+        <div className="flex items-center text-[18px] md:text-3xl z-20 mx-auto">
+          <span className="font-extrabold">I am</span>
+          <FlipWords words={words} />
         </div>
 
         <a href="#projects">
